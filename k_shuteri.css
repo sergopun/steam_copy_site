@@ -1,0 +1,42 @@
+body{
+    background-color: #153759;
+}
+
+.carousel{
+    margin: 200px;
+}
+
+.tovari_po_skidke{
+    margin: 200px;
+    gap: 10px;
+    
+}
+
+.kategorii{
+    gap: 10px;
+    margin: 200px;
+}
+
+footer{
+    color:white;
+    padding: 20px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.card-text{
+    text-align: center
+}
+
+.card-img-overlay{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container{
+    background-color: #656e99;
+
+}
+
+.kard{
+    gap:100px
+}

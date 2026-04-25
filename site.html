@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./site.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://store.fastly.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="Steam" width="176" height="44" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="#">Магазин</a>
+                    <a class="nav-link" aria-current="page" href="#">Сообщество</a>
+                    <a class="nav-link" aria-current="page" href="#">Новости</a>
+                    <a class="nav-link" aria-current="page" href="#podderjka">Поддержка</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Выпадающий список
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./k_shuteri.html">Шутеры</a></li>
+                            <li><a class="dropdown-item" href="#">Хорроры</a></li>
+                            <li><a class="dropdown-item" href="#">Приключения</a></li>
+                            <li><a class="dropdown-item" href="#">Бесплатно</a></li>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Найти товар" aria-label="Поиск">
+                <button class="btn btn-outline-success" type="submit">Поиск</button>
+            </form>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="100" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Первый слайд"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
+                        dy=".3em">Первый слайд</text>
+                </svg>
+            </div>
+            <div class="carousel-item active">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="100" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Второй слайд"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
+                        dy=".3em">Второй слайд</text>
+                </svg>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="100" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Третий слайд"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
+                        dy=".3em">Третий слайд</text>
+                </svg>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+
+    <div class="tovari_po_skidke row">
+        <h3 class="text-light">Товары по скидке <span class="badge text-bg-success">до -75%</span></h3>
+        <div class="card col text-bg-dark" style="width: 18rem;">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="180" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1066890/4ec180b6bc16ce430f12bfbc88f420c93cb48313/header.jpg?t=1768424413"
+                role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em"></text>
+            </svg>
+            <div class="card-body">
+                <p class="card-text fs-3">Automobilista 2 <span class="badge bg-secondary">350P</span><span class="badge text-bg-success">-50%</span></p>
+            </div>
+        </div>
+
+        <div class="card col text-bg-dark" style="width: 18rem;">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="180" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1769695513"
+                role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em"></text>
+            </svg>
+            <div class="card-body">
+                <p class="card-text fs-3">DAYZ <span class="badge bg-secondary">1755P</span><span class="badge text-bg-success">-55%</span></p>
+            </div>
+        </div>
+
+        <div class="card col text-bg-dark" style="width: 18rem;">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="180" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2881650/header.jpg?t=1775640428"
+                role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em"></text>
+            </svg>
+            <div class="card-body">
+                <p class="card-text fs-3">Content Warning <span class="badge bg-secondary">203P</span><span class="badge text-bg-success">-38%</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="kategorii row">
+        <h3 class="text-light">Категории</h3>
+        <div class="card col text-bg-dark">
+            <img class="bd-placeholder-img bd-placeholder-img-lg card-img opacity-50" width="100%" height="270"
+                src="https://store.fastly.steamstatic.com/categories/homepageimage/category/horror?cc=us&l=russian&v=2" role="img" aria-label="Placeholder: Изображение карточки"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em"></text>
+            </svg>
+            <div class="card-img-overlay">
+                <h5 class="card-title"></h5>
+                <h2><span class="badge text-bg-light text-info-emphasis">Хорроры</span></h2>
+            </div>
+        </div>
+
+        <div class="card col text-bg-dark">
+            <img class="bd-placeholder-img bd-placeholder-img-lg card-img opacity-50" width="100%" height="270"
+                src="https://store.fastly.steamstatic.com/categories/homepageimage/category/action?cc=us&l=russian&v=2" role="img" aria-label="Placeholder: Изображение карточки"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em"></text>
+            </svg>
+            <div class="card-img-overlay">
+                <h5 class="card-title"></h5>
+                <h2><span class="badge text-bg-light text-info-emphasis">Шутеры</span></h2>
+            </div>
+        </div>
+
+        <div class="card col text-bg-dark">
+            <img class="bd-placeholder-img bd-placeholder-img-lg card-img opacity-50" width="100%" height="270"
+                src="https://store.fastly.steamstatic.com/categories/homepageimage/freetoplay?cc=us&l=russian&v=2" role="img" aria-label="Placeholder: Изображение карточки"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em"></text>
+            </svg>
+            <div class="card-img-overlay">
+                <h5 class="card-title"></h5>
+                <h2><span class="badge text-bg-light text-info-emphasis">Бесплатно</span></h2>
+            </div>
+        </div>
+
+        <div class="card col text-bg-dark">
+            <img class="bd-placeholder-img bd-placeholder-img-lg card-img opacity-50" width="100%" height="270"
+                src="https://store.fastly.steamstatic.com/categories/homepageimage/category/adventure?cc=us&l=russian&v=2" role="img" aria-label="Placeholder: Изображение карточки"
+                preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6"
+                    dy=".3em"></text>
+            </svg>
+            <div class="card-img-overlay">
+                <h5 class="card-title"></h5>
+                <h2><span class="badge text-bg-light text-info-emphasis">Приключения</span></h2>
+            </div>
+        </div>
+    </div>
+
+    <footer id="podderjka" class="podderjka bg-body-tertiary" data-bs-theme="dark">
+        <h3>Поддержка <span class="badge bg-secondary">Выдумное</span></h3>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Адрес электронной почты</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Мы никогда никому не передадим вашу электронную почту.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Проверить меня</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
